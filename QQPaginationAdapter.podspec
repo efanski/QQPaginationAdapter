@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QQPaginationAdapter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TODO: Add long description of the pod here'
 
 # This description is used to generate tags and improve search results.
