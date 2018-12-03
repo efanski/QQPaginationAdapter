@@ -22,7 +22,7 @@ pod 'QQPaginationAdapter'
 
 ## Author
 
-efanski.a@gmail.com, andrey.efimov@quantron-systems.com
+Andrew Efimov, efanski.a@gmail.com
 
 ## License
 
