@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F17E8F8883FFBAEB983A69B249CDF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2F79C2D9647A4018FEB6607BEEC8002C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7F34C88AB6CE696B8E2A425388913B8A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EFDCE3A3014F43D5EE6D66A3ECD8 /* ReplaceMe.swift */; };
 		999508D431E6083C6AD1467F8A4930D5 /* Pods-QQPaginationAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B8AADB23CD593B18227C40A1607685 /* Pods-QQPaginationAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DD3C500A156EEA6565C558038A805BD /* Pods-QQPaginationAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DD1E64470A9FF995FF3D40A34FEC5C /* Pods-QQPaginationAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A77658C8A9CB31421CE6D2AED26F3C2B /* Pods-QQPaginationAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C14180736372ADF0311E5CE57E4D7F /* Pods-QQPaginationAdapter_Tests-dummy.m */; };
 		B254E4B71872E9D05729928F20F324B8 /* QQPaginationAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD25AF4E7A37F6786CFF037008954DEF /* QQPaginationAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D85F3DA3E65CE6BCBA2D2D4B694D07CA /* Pods-QQPaginationAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D89C13C815F5043B70CFB902503E4 /* Pods-QQPaginationAdapter_Example-dummy.m */; };
 		F2999EDB2B8CB1CBD317F4E0C0E961D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -20,13 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C783E2DBCCC16EB0F08E4A9591C431E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5800ED996CD81AD775DBAF509B3BFB5C;
-			remoteInfo = "Pods-QQPaginationAdapter_Example";
-		};
 		95A15D0F674B324825A9AB70612B63DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -43,46 +33,27 @@
 		2D53110ABE49D9C9F332C674392FC9DF /* Pods-QQPaginationAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQPaginationAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2ED4BF85080093EC6676C23188C2AFA4 /* QQPaginationAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QQPaginationAdapter.modulemap; sourceTree = "<group>"; };
 		37DB873A034C6EE6E7657C4691D3D6D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F852100A267102569079E2F57654314 /* Pods-QQPaginationAdapter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPaginationAdapter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4665C9FA4D80ABF798D1F14D7976D18D /* QQPaginationAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QQPaginationAdapter.podspec; sourceTree = "<group>"; };
 		4C93294E9689D185AEFE84AA4F4394A1 /* Pods-QQPaginationAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQPaginationAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61150292B754597ED43330A10E7CEFDF /* Pods-QQPaginationAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPaginationAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		66DD0C36D7D33FA6BD768BB60A0F80AA /* Pods-QQPaginationAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQPaginationAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B94BC2A5899EE0F8E29F1B28384C103 /* Pods-QQPaginationAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQPaginationAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		701A3058E81C0FE8F630DCD9A6BC06CF /* Pods_QQPaginationAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQPaginationAdapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		735588BBCC748219221580201689D9BC /* QQPaginationAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QQPaginationAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA6DC21AD77B40E040F7E2F6F2B84B8 /* Pods-QQPaginationAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQPaginationAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9010CEC77A0E43A85291C181C5F9B7AB /* Pods-QQPaginationAdapter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPaginationAdapter_Example-resources.sh"; sourceTree = "<group>"; };
-		916E61CFDEA835ED34B6834EBF55174C /* Pods-QQPaginationAdapter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQPaginationAdapter_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96B8AADB23CD593B18227C40A1607685 /* Pods-QQPaginationAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQPaginationAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
-		97DD1E64470A9FF995FF3D40A34FEC5C /* Pods-QQPaginationAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQPaginationAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		990C351E3B199CB6E23835FF5C33F660 /* QQPaginationAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QQPaginationAdapter-dummy.m"; sourceTree = "<group>"; };
 		9D9D89C13C815F5043B70CFB902503E4 /* Pods-QQPaginationAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQPaginationAdapter_Example-dummy.m"; sourceTree = "<group>"; };
-		9DE19D7A351E3303EA68377EDAB2393F /* Pods-QQPaginationAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQPaginationAdapter_Tests.modulemap"; sourceTree = "<group>"; };
-		A89A512F840A2C0907010CAD0924893C /* Pods-QQPaginationAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQPaginationAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9068E15C4531AD56968C0416408F816 /* QQPaginationAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQPaginationAdapter.xcconfig; sourceTree = "<group>"; };
 		A9D58AF5B5BBD135354F5A894DEFE089 /* Pods-QQPaginationAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQPaginationAdapter_Example.modulemap"; sourceTree = "<group>"; };
 		B1F06EE299306F7D7384574381FA50A3 /* Pods_QQPaginationAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QQPaginationAdapter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C4ED0EF7F716A4F58FFA97224447B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46F2B072995D985128A049A16561EA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DAAAA7D3C80AF851BCD75F889A8EBF8F /* QQPaginationAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQPaginationAdapter-prefix.pch"; sourceTree = "<group>"; };
-		F0C14180736372ADF0311E5CE57E4D7F /* Pods-QQPaginationAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQPaginationAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
-		F61230B277525C160EB64356425495C0 /* Pods-QQPaginationAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQPaginationAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC31932CB585D842F1A73C2111A710EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD25AF4E7A37F6786CFF037008954DEF /* QQPaginationAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQPaginationAdapter-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		019712EE27DE18D2699723AC25F1EDAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F79C2D9647A4018FEB6607BEEC8002C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1EC090812B79FE6C2C2DE00266343E1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				B1F06EE299306F7D7384574381FA50A3 /* Pods_QQPaginationAdapter_Example.framework */,
-				701A3058E81C0FE8F630DCD9A6BC06CF /* Pods_QQPaginationAdapter_Tests.framework */,
 				735588BBCC748219221580201689D9BC /* QQPaginationAdapter.framework */,
 			);
 			name = Products;
@@ -174,29 +144,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		8AE59D677AE50AF353FF0A29BE4D8C53 /* Pods-QQPaginationAdapter_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C1C4ED0EF7F716A4F58FFA97224447B5 /* Info.plist */,
-				9DE19D7A351E3303EA68377EDAB2393F /* Pods-QQPaginationAdapter_Tests.modulemap */,
-				6B94BC2A5899EE0F8E29F1B28384C103 /* Pods-QQPaginationAdapter_Tests-acknowledgements.markdown */,
-				66DD0C36D7D33FA6BD768BB60A0F80AA /* Pods-QQPaginationAdapter_Tests-acknowledgements.plist */,
-				F0C14180736372ADF0311E5CE57E4D7F /* Pods-QQPaginationAdapter_Tests-dummy.m */,
-				3F852100A267102569079E2F57654314 /* Pods-QQPaginationAdapter_Tests-frameworks.sh */,
-				916E61CFDEA835ED34B6834EBF55174C /* Pods-QQPaginationAdapter_Tests-resources.sh */,
-				97DD1E64470A9FF995FF3D40A34FEC5C /* Pods-QQPaginationAdapter_Tests-umbrella.h */,
-				A89A512F840A2C0907010CAD0924893C /* Pods-QQPaginationAdapter_Tests.debug.xcconfig */,
-				F61230B277525C160EB64356425495C0 /* Pods-QQPaginationAdapter_Tests.release.xcconfig */,
-			);
-			name = "Pods-QQPaginationAdapter_Tests";
-			path = "Target Support Files/Pods-QQPaginationAdapter_Tests";
-			sourceTree = "<group>";
-		};
 		BA2868A7E34880248BBFFC2BB1C418CB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				11A08C7D0E205512E7DB17034BDF29FA /* Pods-QQPaginationAdapter_Example */,
-				8AE59D677AE50AF353FF0A29BE4D8C53 /* Pods-QQPaginationAdapter_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -246,14 +197,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B19797A583E646D9C2D4DBC1BB05BB0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DD3C500A156EEA6565C558038A805BD /* Pods-QQPaginationAdapter_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -292,24 +235,6 @@
 			productReference = 735588BBCC748219221580201689D9BC /* QQPaginationAdapter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DAA3F57DE87A10DE885ABD5517F5ED6C /* Pods-QQPaginationAdapter_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A48D77004D7F0BFF23E1E3A85BA3B662 /* Build configuration list for PBXNativeTarget "Pods-QQPaginationAdapter_Tests" */;
-			buildPhases = (
-				DF629B705AE523CE9931537BEFE46965 /* Sources */,
-				019712EE27DE18D2699723AC25F1EDAC /* Frameworks */,
-				6B19797A583E646D9C2D4DBC1BB05BB0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				01A591984C3A16C95DF4D0DF888309F9 /* PBXTargetDependency */,
-			);
-			name = "Pods-QQPaginationAdapter_Tests";
-			productName = "Pods-QQPaginationAdapter_Tests";
-			productReference = 701A3058E81C0FE8F630DCD9A6BC06CF /* Pods_QQPaginationAdapter_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,7 +257,6 @@
 			projectRoot = "";
 			targets = (
 				5800ED996CD81AD775DBAF509B3BFB5C /* Pods-QQPaginationAdapter_Example */,
-				DAA3F57DE87A10DE885ABD5517F5ED6C /* Pods-QQPaginationAdapter_Tests */,
 				6ED3FECC737C8A0520E2B9869E4E845B /* QQPaginationAdapter */,
 			);
 		};
@@ -356,23 +280,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF629B705AE523CE9931537BEFE46965 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A77658C8A9CB31421CE6D2AED26F3C2B /* Pods-QQPaginationAdapter_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01A591984C3A16C95DF4D0DF888309F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-QQPaginationAdapter_Example";
-			target = 5800ED996CD81AD775DBAF509B3BFB5C /* Pods-QQPaginationAdapter_Example */;
-			targetProxy = 4C783E2DBCCC16EB0F08E4A9591C431E /* PBXContainerItemProxy */;
-		};
 		D1ED2CBB4982A9B6F4A4B87DDC7510D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QQPaginationAdapter;
@@ -390,10 +300,10 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/QQPaginationAdapter/QQPaginationAdapter-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QQPaginationAdapter/Info.plist";
@@ -485,7 +395,9 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_CURRENT_VERSION = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -513,40 +425,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		A92AD465C897F69677A3BA1E263609C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F61230B277525C160EB64356425495C0 /* Pods-QQPaginationAdapter_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QQPaginationAdapter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QQPaginationAdapter_Tests/Pods-QQPaginationAdapter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		AE97B0231A2C77AA2F8E911CD434A9F8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -583,39 +461,6 @@
 			};
 			name = Release;
 		};
-		B35CAEEC70C0C23B7D4B8C3AE8FE4588 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89A512F840A2C0907010CAD0924893C /* Pods-QQPaginationAdapter_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QQPaginationAdapter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QQPaginationAdapter_Tests/Pods-QQPaginationAdapter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -651,7 +496,9 @@
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_CURRENT_VERSION = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -683,10 +530,10 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/QQPaginationAdapter/QQPaginationAdapter-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QQPaginationAdapter/Info.plist";
@@ -715,15 +562,6 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A48D77004D7F0BFF23E1E3A85BA3B662 /* Build configuration list for PBXNativeTarget "Pods-QQPaginationAdapter_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B35CAEEC70C0C23B7D4B8C3AE8FE4588 /* Debug */,
-				A92AD465C897F69677A3BA1E263609C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
