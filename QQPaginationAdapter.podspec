@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QQPaginationAdapter/Classes/**/*'
-  
+    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   # s.resource_bundles = {
   #   'QQPaginationAdapter' => ['QQPaginationAdapter/Assets/*.png']
   # }
