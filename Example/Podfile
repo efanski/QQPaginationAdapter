@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QQPaginationAdapter_Example' do
+  pod 'QQPaginationAdapter', :path => '../'
+
+  target 'QQPaginationAdapter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
