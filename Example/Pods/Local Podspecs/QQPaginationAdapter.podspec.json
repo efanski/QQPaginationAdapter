@@ -1,0 +1,22 @@
+{
+  "name": "QQPaginationAdapter",
+  "version": "0.1.0",
+  "summary": "A short description of QQPaginationAdapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/efanski.a@gmail.com/QQPaginationAdapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "efanski.a@gmail.com": "andrey.efimov@quantron-systems.com"
+  },
+  "source": {
+    "git": "https://github.com/efanski.a@gmail.com/QQPaginationAdapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QQPaginationAdapter/Classes/**/*"
+}

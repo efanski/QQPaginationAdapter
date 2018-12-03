@@ -1,0 +1,6 @@
+framework module QQPaginationAdapter {
+  umbrella header "QQPaginationAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

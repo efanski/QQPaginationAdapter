@@ -18,14 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+A short description of QQPaginationAdapter.
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/efanski.a@gmail.com/QQPaginationAdapter'
+  s.homepage         = 'https://github.com/efanski/QQPaginationAdapter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'efanski.a@gmail.com' => 'andrey.efimov@quantron-systems.com' }
-  s.source           = { :git => 'https://github.com/efanski.a@gmail.com/QQPaginationAdapter.git', :tag => s.version.to_s }
+  s.author           = { 'efanski.a@gmail.com' => 'efanski.a@gmail.com' }
+  s.source           = { :git => 'https://github.com/efanski/QQPaginationAdapter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

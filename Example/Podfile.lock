@@ -1,0 +1,16 @@
+PODS:
+  - QQPaginationAdapter (0.1.0)
+
+DEPENDENCIES:
+  - QQPaginationAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  QQPaginationAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QQPaginationAdapter: 1beb630bcdf428b6f3d51cd4222963c51df3432e
+
+PODFILE CHECKSUM: c43a183676c32db2b74e47d4b64366e83305961d
+
+COCOAPODS: 1.5.3
