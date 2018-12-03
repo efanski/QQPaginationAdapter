@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QQPaginationAdapter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QQPaginationAdapter.'
+  s.summary          = 'TODO: Add long description of the pod here'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QQPaginationAdapter/Classes/**/*'
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.swift_version = '4.0' #pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   # s.resource_bundles = {
   #   'QQPaginationAdapter' => ['QQPaginationAdapter/Assets/*.png']
   # }
